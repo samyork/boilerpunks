@@ -1,12 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from "react";
+import Main from './Main';
 
-function App() {
+class App extends React.Component {
+constructor(props){
+  super(props);
+}
+state = {
+
+};
+render() {
   return (
     <div className="App">
-      Components go here
+    <Main />
     </div>
   );
 }
-
+}
 export default App;
